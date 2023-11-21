@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 400px;
+    height: 1000px;
+    
+}
+.box{
+    
+    width: 380px;
+    height: 990px;
+}
+header{
+    display: flex;
+    width: 380px;
+    height: 50px;
+    
+}
+ul{
+    display: flex;
+    width: 380px;
+    align-items: center;
+    justify-content: space-between;
+}
+ul>li>p{
+    font-size: 25px;
+    font-weight: bolder;
+}
+ul>li>img{
+    width: 25px;
+    height: 25px;
+}
+.li-img{
+    width: 130px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    width: 380px;
+    height: 60px;
+    
+}
+.profile-face{
+    background-image: url(./img/악어.jpg);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.profile-font{
+    margin: 10px 0px 10px 10px;
+}
+.profile-img{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+.meesage{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-left: 150px;
+    font-size: 14px;
+}
+.ppl{
+    background-image: url(./img/광고.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 380px;
+    height: 80px;
+    margin-top: 5px;
+    
+}
+.channel-font{
+    color: gray;
+    margin: 7px 7px 0px 0px;
+}
+.channel{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    width: 380px;
+    height: 150px;
+    
+}
+.channel-box{
+    width: 100px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: rgb(236, 235, 235);
+}
+.friend-font{
+    margin-top: 25px;
+    color: gray;
+    margin-bottom: 20px;
+}
+.friend-box{
+    display: flex;
+    align-items: center;
+    width: 380px;
+    height: 50px;
+    margin-top: 10px;
+}
+.friend{
+    background-image: url(./img/악어.jpg);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.friend-name{
+    margin: 5px 0px 0px 5px;
+}
+footer{
+    position: fixed;
+    display: flex;
+    
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    border: 1px solid gray;
+    background-color: white;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+
+}
+footer>ul>li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
